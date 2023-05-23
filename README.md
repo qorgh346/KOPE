@@ -12,11 +12,11 @@ Pytorch implementation of KOPE: Category-level Object Pose Estimation
  
 
 ## IsaacSIMDataset Preparation
-Download the IsaacSIMDataset
-
+Download the IsaacSIMDataset [link](https://drive.google.com/file/d/1Y9YMRH6dRzuOWFrcVYkAd-rEVgaLTv9j/view?usp=sharing).
+Download the IsaacSIMObjectModel [link](https://drive.google.com/file/d/1owc2MXld1Yw2ITblFigT-pVCY_hDAZzf/view?usp=sharing).
 
 ## Trained model
-Download the trained model from this [link](https://drive.google.com/file/d/1V3kkJNHAkr5ZiBO-pxNeujDUA--GRfT7/view?usp=sharing).
+Download the trained model from this [link](https://drive.google.com/file/d/1bK99MFeZm7CXVA45xUdvUQ0irtiBKgUV/view?usp=sharing).
 
 ## Training
 Please note, some details are changed from the original paper for more efficient training. 
