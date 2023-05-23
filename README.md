@@ -16,6 +16,14 @@ Download the IsaacSIMDataset [link](https://drive.google.com/file/d/1Y9YMRH6dRzu
 
 Download the IsaacSIMObjectModel [link](https://drive.google.com/file/d/1owc2MXld1Yw2ITblFigT-pVCY_hDAZzf/view?usp=sharing).
 
+## File Root
+
+- Temp_ws
+ - KOPE
+ - data
+  - IsaacSIM
+  - obj_models.
+
 ## Trained model
 Download the trained model from this [link](https://drive.google.com/file/d/1bK99MFeZm7CXVA45xUdvUQ0irtiBKgUV/view?usp=sharing).
 
