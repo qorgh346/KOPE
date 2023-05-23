@@ -1,16 +1,7 @@
-# GPV-Pose
-Pytorch implementation of GPV-Pose: Category-level Object Pose Estimation via Geometry-guided Point-wise Voting.
-([link](https://arxiv.org/abs/2203.07918))
+# KOPE
+Pytorch implementation of KOPE: Category-level Object Pose Estimation 
 
 ![pipeline](pic/pipeline.png)
-
-## UPDATE!
-The results on NOCS and the trained model on CAMERA can be found [here](https://drive.google.com/drive/folders/1hSaE1xYdBDJmMkVTt1i9JkrUgl_nNZO1?usp=sharing).
-
-A new version of code which integrates shape prior information has been updated to [the shape-prior-integrated branch](https://github.com/lolrudy/GPV_Pose/tree/shape-prior-integrated) in this repo!
-A brief introuction will be presented in this file.
-Since L_PC_(s) is not really useful (also indicated in the paper), we remove the loss term and transform it into a pre-processing procedure. 
-You can find it in [the updated branch](https://github.com/lolrudy/GPV_Pose/tree/shape-prior-integrated).
 
 ## Required environment
 
@@ -20,15 +11,8 @@ You can find it in [the updated branch](https://github.com/lolrudy/GPV_Pose/tree
 - CUDA 11.3.
  
 
-
-## Installing
-
-- Install the main requirements in 'requirement.txt'.
-- Install [Detectron2](https://github.com/facebookresearch/detectron2).
-
-## Data Preparation
-To generate your own dataset, use the data preprocess code provided in this [git](https://github.com/mentian/object-deformnet/blob/master/preprocess/pose_data.py).
-Download the detection results in this [git](https://github.com/Gorilla-Lab-SCUT/DualPoseNet).
+## IsaacSIMDataset Preparation
+Download the IsaacSIMDataset
 
 
 ## Trained model
@@ -51,5 +35,5 @@ python -m evaluation.evaluate --data_dir YOUR_DATA_DIR --detection_dir DETECTION
 
 
 ## Acknowledgment
-Our implementation leverages the code from [3dgcn](https://github.com/j1a0m0e4sNTU/3dgcn), [FS-Net](https://github.com/DC1991/FS_Net),
+Our implementation leverages the code from [PointTransformerV2](https://github.com/PointTransformerV2), [FS-Net](https://github.com/DC1991/FS_Net),
 [DualPoseNet](https://github.com/Gorilla-Lab-SCUT/DualPoseNet), [SPD](https://github.com/mentian/object-deformnet).
