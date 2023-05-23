@@ -24,9 +24,9 @@ Download the IsaacSIMObjectModel [link](https://drive.google.com/file/d/1owc2MXl
      
      * /data
      
-        /IsaacSIM
+         * /IsaacSIM
         
-        /obj_models
+         * /obj_models
 
 ## Trained model
 Download the trained model from this [link](https://drive.google.com/file/d/1bK99MFeZm7CXVA45xUdvUQ0irtiBKgUV/view?usp=sharing).
