@@ -20,9 +20,9 @@ Download the IsaacSIMObjectModel [link](https://drive.google.com/file/d/1owc2MXl
 
 * /Temp_ws
 
-     /KOPE
+     * /KOPE
      
-     /data
+     * /data
      
         /IsaacSIM
         
