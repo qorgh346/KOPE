@@ -19,9 +19,13 @@ Download the IsaacSIMObjectModel [link](https://drive.google.com/file/d/1owc2MXl
 ## File Root
 
 * /Temp_ws
+
      /KOPE
+     
      /data
+     
         /IsaacSIM
+        
         /obj_models
 
 ## Trained model
