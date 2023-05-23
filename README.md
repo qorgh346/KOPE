@@ -44,5 +44,5 @@ python -m evaluation.evaluate --data_dir YOUR_DATA_DIR --detection_dir DETECTION
 
 
 ## Acknowledgment
-Our implementation leverages the code from [PointTransformerV2](https://github.com/Gofinge/PointTransformerV2), [FS-Net](https://github.com/DC1991/FS_Net),
+Our implementation leverages the code from [GPV_Pose](https://github.com/lolrudy/GPV_Pose), [PointTransformerV2](https://github.com/Gofinge/PointTransformerV2), [FS-Net](https://github.com/DC1991/FS_Net),
 [DualPoseNet](https://github.com/Gorilla-Lab-SCUT/DualPoseNet), [SPD](https://github.com/mentian/object-deformnet).
